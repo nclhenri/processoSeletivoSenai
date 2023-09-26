@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1: 'Poppins', sans-serif;
+}
+
+.site {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
+}
+
+nav ul li a:nth-child(2) {
+    margin: 0px 50px;
+}
+
+header button {
+    background-color: #B51D44;
+    padding: 8px 30px;
+    border-radius: 10px;
+    color: white;
+    font-family: var(--font1);
+}
+
+/* BANNER */
+
+.banner img {
+    width: 100%;
+}
+
+/* Seção eventos */
+
+.eventos div h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+.cardsEventos {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #821B47;
+    padding: 20px;
+    width: 20%;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsEventos h2 {
+    margin: 20px 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+.cardsEventos p{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--font1);
+}
+
+.cardsEventos button{
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #B51D44;
+}
+
+
+.estruturaCards {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+/* VISAO */
+
+
+.visao div img{
+    width: 100%;
+}
+
+/* MAPA */
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.mapa img{
+    margin-right: 30px;
+}
+
+.titulo h1{
+    text-align: center;
+    margin: 50px;
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+.creditos{
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.creditos h1{
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--font1);
+}
+
+.mapa div h2{
+    font-family: var(--font1);
+
+}
+
+.mapa div a{
+    text-decoration: none;
+    font-family: var(--font1);
+    color: black;
+}
+
+
+
